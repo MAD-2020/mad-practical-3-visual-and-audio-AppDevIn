@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         mVideoView = findViewById(R.id.videoView);
 
-        mVideoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.demovideo);
+        mVideoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.rabbid);
 
         mVideoView.start();
 
-        mMediaPlayer = MediaPlayer.create(this, R.raw.audio);;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.baby_laughing);;
 
         mMediaPlayer.start();
 
